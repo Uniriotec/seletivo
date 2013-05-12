@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+<meta charset="Content-Type: text/html; charset=UTF-8"></meta>
+
+<title>STUDIORUM</title>
+
+	<link rel="stylesheet" href="estilosite.css" type="text/css" media="screen" />
+</head>
+
+<div id="tudo">   
+
+ <body>
+   <div id="fundo">
+
+       <header>
+	     <p id="titulo"><a href="index.html"><img id="logo" src="titulo.png" alt=logo></img></a></p>
+	     <h1>A Educa&ccedil;&atilde;o na Era Digital</h1>
+	   </header>
+
+       <h2></h2>
+	   <nav>
+		
+		 <ul>
+			<li style="margin-right:30px"><a href="index.html">In&iacute;cio</a>
+			<li class="selected" style="margin-right: 10px"><a href="maisinfo.html">Sobre</a></li>
+			<li style="margin-right: -26px"><a href="faleconosco.html">Contato</a></li>
+		 </ul>
+			   	<h3></h3>
+
+	   </nav>
+       
+
+	   <section>
+		
+			<h6>O Blog</h6>     
+			<h7> Por: Caroline Loppi</h7>
+			<center>
+			 <p>Esta p&aacutegina tem o intuito de promover meios de estudo para estudantes de todas as idades. Tendo isto em vista, os t&ocutepicos abordam facilitadores do cotidiano de aprendizes, tais como ferramentas eletrônicas, manuais e dicas diversas.</p>
+			 <img id="livros" src="sobreimagens.jpeg" alt=Livros></img>	 
+			</center>
+       </section>
+	   
+	          <h5></h5>
+
+	   <footer>
+		 <ul>
+			<li id="sug"><alt="Sugest&otilde;es?">Sugest&otilde;es?</li>
+			<li id="env"><alt="Envie para:">Envie para:</li>
+			<li id="email"><a href="mailto:caroline.guimaraes@uniriotec.br"; alt="E:mail: caroline.guimaraes@uniriotec.br"> caroline.guimaraes@uniriotec.br</a></li>
+		 </ul>
+		      <h3></h3>
+	   </footer>
+	</div>
+
+ </body>
+</div>
+</html>

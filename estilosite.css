@@ -1,0 +1,292 @@
+
+
+
+body{
+background-color: white;
+margin: 0px;
+
+}
+
+header, footer, section, aside, nav, article {
+	display: block;
+}
+
+
+h1{
+font-family: "Century Gothic", sans-serif;
+font-size: 19px;	
+color: white;
+text-shadow: black 0.1em 0.1em 0.2em;
+text-align: left;
+margin-top: -90px;
+margin-left: 10px;
+padding:2px;
+
+}
+
+h2{
+border-style: solid;
+border-color:white;
+border-bottom-width: 1px;
+border-top-width: 0;
+border-right-width: 0;
+border-left-width: 0;
+margin-top:13px;
+}
+
+h3{
+border-style: solid;
+border-color:white;
+border-bottom-width: 1px;
+border-top-width: 0;
+border-right-width: 0;
+border-left-width: 0;
+margin-top:30px;
+}
+
+h4{
+border-style: solid;
+border-color:white;
+border-bottom-width: 1px;
+border-top-width: 0;
+border-right-width: 0;
+border-left-width: 0;
+margin-top:60px;
+}
+
+h5{
+border-style: solid;
+border-color:white;
+border-bottom-width: 1px;
+border-top-width: 0;
+border-right-width: 0;
+border-left-width: 0;
+margin-top:260px;
+}
+
+#fundo{
+width: 900px;
+height:1300px;
+background-color: #E0E0E0;
+margin: 0 auto;
+text-align: center;
+}
+
+#tudo{
+text-align: center;
+margin:0 auto;
+}
+
+#titulo{
+width: 242px;
+height: 171px;
+}
+#logo{
+      margin-top:20px;
+
+}   
+#nome{
+   margin-bottom:20px;
+   -moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	
+	}
+	
+	
+	
+nav {
+   
+	position: absolute;
+	width: 900px;
+	height: 40px;
+	margin: auto;
+
+	}
+
+nav ul {
+	margin:  auto;
+	width: 650px;
+	list-style: none;
+	margin-left: 67px;
+	
+	
+	}
+
+nav ul li {
+	float: left;
+	text-align: center;
+
+	
+
+	
+	
+	}
+		
+nav ul li a {
+	display: block;
+	width: 200px;
+	font-size: 19px;
+	font-weight: bold;
+	line-height: 24px;
+	text-align: center;
+	text-decoration: none;
+	color: #A6AAB5;
+	text-shadow: white 0.1em 0.1em 0.2em;
+
+	
+	}
+			
+nav ul li a:hover {
+	color: black;
+	}
+			
+nav ul li.selected a {
+	color: #A6AAB5;
+	}
+		
+			
+
+
+
+section {
+   
+	position: relative;
+	width: 760px;
+	/* curved border radius */
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	}
+
+section h6{
+	margin: auto;
+	width: 660px;
+	margin-top:200px;
+	font-family: "Century Gothic", sans-serif;
+	font-size: 20px;	
+	color: white;
+	text-shadow: black 0.05em 0.05em 0.1em;
+	text-align: center;
+	margin-top: 200px;
+	margin-left: -30px;
+	padding:2px;
+
+
+}
+
+section h7{
+	margin: auto;
+	width: 660px;
+	font-family: "Century Gothic", sans-serif;
+	font-size: 16px;	
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	text-align: center;
+	margin-right: -320px;
+	margin-left: -30px;
+	padding-right: 70px;
+}
+
+section center{
+	position:center;
+	margin-left:130px;
+}
+
+section center p{
+	width: 500px;
+	margin-top: 25px;
+	text-align: justify;
+	color:#444;
+	font-family: "Helvetica", sans-serif;	}
+
+section center p a{
+	margin-top:30px;
+	color: white;
+	font-family: "Helvetica", sans-serif;
+
+}
+ section center p a:link{
+text-decoration: none;
+color: white;
+text-shadow: gray 0.1em 0.1em 0.2em;
+
+ }
+ section center p a:hover{
+ 	
+text-shadow: blue 0.1em 0.1em 0.2em;
+ }
+
+
+#livros{
+	margin-left:-40px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+#sobreimg{
+	margin-left: 6px;
+    padding-top: 10px;
+    padding-bottom:6px;
+}
+		
+
+footer{
+    position: absolute;
+	width: 900px;
+	height: 0px;
+	background-color: #E0E0E0;
+	margin: auto;
+	margin-top:60px;
+	}
+
+
+footer ul {
+	margin:  auto;
+	width: 850px;
+	list-style: none;
+
+	}
+
+footer ul li {
+	float: left;
+	text-align: center;
+    margin-left: 10px;
+	}
+#sug{
+    font-size: 27px;
+	font-weight: bold;
+	margin-top: -60px;
+	text-align: center;
+	text-decoration: none;
+	color: #444;
+	padding:0px 5px 0px;
+}
+#env{
+	font-size:20px;
+	font-weight: bold;
+	margin-top: -30px;
+    text-align: center;
+    text-decoration:none;
+    margin-left: 80px;
+    color: #444;
+    padding: 10px  60px 0px;
+}
+
+#email{
+    font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -20px;
+	text-decoration: white;
+	color: white;
+    padding-bottom: 30px;
+}
+ footer a:link{
+text-decoration: none;
+color: white;
+text-shadow: gray 0.1em 0.1em 0.2em;
+
+ }
+ footer a:hover{
+ 	
+text-shadow: blue 0.1em 0.1em 0.2em;
+ }
