@@ -1,0 +1,369 @@
+body {
+	font : 12px/1.7 Arial, verdana, sans-serif;
+background-image : -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#B5B5B5)); 
+	background : -moz-linear-gradient(#ffffff, #B5B5B5); 
+	background : -ms-linear-gradient(#ffffff, #B5B5B5); 
+	background : -o-linear-gradient(#ffffff, #B5B5B5);
+	-ms-filter : "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#B5B5B5)"; /* Para IE 8 */
+	filter : progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#B5B5B5); /* Para IE 5.5 - 7 */
+	color : #333;
+}
+
+ul, dl { 
+	padding : 0;
+	margin : 0;
+	list-style : none;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top : 0;
+  padding-right : 15px;
+	padding-left : 10px; 
+}
+a img { 
+	border : none;
+}
+
+a:link {
+	color : #1c8ca9;
+	text-decoration : none; 
+}
+
+a:hover, a:active, a:focus, a:visited { 
+	text-decoration : none;
+	color : #34b7d9;
+}
+
+#container {
+	width : 1000px;
+	background-color : #FFFFFF;
+  padding-bottom : 10px;
+  border-radius : 10px;
+	box-shadow : 0 0 13px 3px #E3E3E3; 
+	-moz-box-shadow : 0 0 13px 3px #E3E3E3; 
+	-webkit-box-shadow : 0 0 13px 3px #E3E3E3; 
+	margin : 0 auto; 
+}
+
+header {
+	height : 170px;
+}
+
+#logo {
+	background : url('../imagens/logo.jpg') no-repeat;
+	width : 320px;
+	height : 130px;
+	margin-top : 15px;
+	float : left;
+	display : block;	
+}
+
+.redes-sociais {
+	width : 100px;
+	float : right;
+	margin-top : 3px;
+	right : 400px;
+	position : absolute;
+	z-index : 2; 	
+}
+
+.rede-social-1 {
+	float : left;
+  padding-right : 10px;
+	background : url('../imagens/facebook.png') no-repeat;
+	width : 20px;
+	height : 20px;	
+	display : block;
+	-moz-transition : all 0.2s ease-in-out;	
+	-webkit-transition : all 0.2s ease-in-out;
+  -o-transition : all 0.2s ease-in-out;
+	transition : all 0.2s ease-in-out;
+	opacity : 0.80;
+   -moz-opacity : 0.80;
+	filter : alpha(opacity=80); /* ie 5+ */
+  -ms-filter : "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; /* ie 8 */
+}
+
+.rede-social-1:hover, .rede-social-1:active, .rede-social-1:focus {
+	opacity : 1.0;
+  -moz-opacity : 1.0;
+	filter : alpha(opacity=100); /* ie 5+ */
+  -ms-filter : "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; /* ie 8 */
+}
+
+.rede-social-2 {
+	float : left;
+  padding-right : 10px;
+	background : url('../imagens/twitter.png') no-repeat;
+	width : 20px;
+	height : 20px;	
+	display : block;
+	-moz-transition : all 0.2s ease-in-out;	
+	-webkit-transition : all 0.2s ease-in-out;
+  -o-transition : all 0.2s ease-in-out;
+	transition : all 0.2s ease-in-out;
+	opacity : 0.80;
+  -moz-opacity : 0.80;
+	filter : alpha(opacity=80); /* ie 5+ */
+  -ms-filter : "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; /* ie 8 */
+}
+
+.rede-social-2:hover, .rede-social-2:active, .rede-social-2:focus {
+	opacity : 1.0;
+  -moz-opacity : 1.0;
+	filter : alpha(opacity=100); /* ie 5+ */
+  -ms-filter : "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; /* ie 8 */
+}
+
+.rss {
+  float : left;
+	background : url('../imagens/rss.png') no-repeat;
+	width : 20px;
+	height : 20px;	
+	display : block;
+	-moz-transition : all 0.2s ease-in-out;	
+	-webkit-transition : all 0.2s ease-in-out;
+  -o-transition : all 0.2s ease-in-out;
+	transition : all 0.2s ease-in-out;
+	opacity : 0.80;
+  -moz-opacity : 0.80;
+	filter : alpha(opacity=80); /* ie 5+ */
+  -ms-filter : "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; /* ie 8 */
+}
+
+.rss:hover, .rss:active, .rss:focus {
+	opacity : 1.0;
+  -moz-opacity : 1.0;
+	filter : alpha(opacity=100); /* ie 5+ */
+  -ms-filter : "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; /* ie 8 */
+}
+
+.barra-nav-busca {
+	width : 300px;
+	height : 23px;
+	background : url('../imagens/menu-busca.png') no-repeat;
+	float : right;
+	margin-top : -22px;
+  margin-right : 10px; 
+}
+
+#pesquisar {
+	float : right;
+	width : 220px;
+  margin-right : 13px;
+}
+
+#pesquisar input[type="text"] {
+	width : 200px;
+	height : 14px;
+	padding : 5px 20px 5px 5px;
+	border : 1px solid #cccccc;
+  border-radius : 10px;
+	outline : none;
+	position : absolute;
+	z-index : 2; 
+}
+
+#pesquisar input[type="image"] {
+  display : block;
+  width : 18px;
+  height : 18px;
+  float : right;
+  position : relative;
+  margin-top : 4px;	
+	z-index : 3;
+}
+
+.barra-nav {
+	width : 1026px;
+	height : 37px;
+	background : url('../imagens/menu.png') no-repeat;
+	margin-left : -13px;
+	position : absolute;
+	z-index : 1;
+}
+
+#conteudo {
+	margin-top : 35px;
+	padding : 25px 0;
+	width : 1000px;
+}
+
+#conteudo ul, #conteudo ol {
+	padding : 0 15px 15px 40px; 
+}
+
+ul.nav-busca li {
+	list-style : none;
+  float : left;
+	margin-left : 5px;
+	font-size : 15px;
+}
+
+ul.nav-busca li + li a:before {
+  content : "| ";
+}
+
+ul.nav-busca a {
+  color : #ffffff;
+  text-decoration : none;
+}
+
+ul.nav-busca, a,ul.nav-busca a:hover,ul.nav-busca a:active{
+	color : #c0fffd;
+}
+
+ul.nav-princ li {
+	list-style : none; 
+	float : left;
+	margin : -2px 0 0 5px;
+}
+
+ul.nav-princ a { 
+	padding : 0px 15px; 
+	display : block; 
+  color : #ffffff;
+	text-decoration : none;
+  font-weight : bold;
+ 	font-size : 18px;
+	-moz-transition : all 0.2s ease-in-out;	
+	-webkit-transition : all 0.2s ease-in-out;
+  -o-transition : all 0.2s ease-in-out;
+	transition : all 0.2s ease-in-out;
+}
+
+ul.nav-princ a:hover, ul.nav-princ a:active, ul.nav-princ a:focus {
+	color : #E7E7E7;
+}
+
+.clearfloat {
+  clear : both;
+	height : 0;
+	font-size : 1px;
+	line-height : 0px;	
+}
+
+footer {
+	padding : 7px 5px;
+	width : 1000px;
+	margin : 40px auto;
+	color : #ffffff;
+  border-radius : 10px;
+	box-shadow : 1px 1px 10px -2px #404040;
+	background-color : rgba(255, 255, 255, 0.7);
+	filter : progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#ffffff');
+}
+
+#footer-logo {
+	background : url('../imagens/footer-logo.png') no-repeat;
+	width : 40px;
+	height : 40px;
+	display : block;
+	float : left;
+	margin-right : 15px;  
+	position : relative;
+}
+
+footer a:link {
+	color : #353535;	
+}
+
+footer a:hover, a:active, a:focus, a:visited { 
+ 	text-decoration : none;
+ 	color : #1c8ca9;
+}
+
+footer article {
+	border : 1px solid #999; 
+	padding : 10px; 
+	margin : 1px; 
+  border-radius : 5px;
+}
+
+#v-topo {
+	background : url("../imagens/v-topo.png") no-repeat;
+	display : block;
+	width : 40px;	
+	height : 40px;
+	float : right; 
+	margin-top : -40px;
+	position : relative;
+}
+
+header, section, footer, aside, article, figure {
+	display : block;
+}
+
+#barra-lateral{
+	background-color : #DFEFFF;
+	width : 230px;
+	float : right;	
+	margin : 10px;
+}
+
+#barra-lateral h2{
+	background : url("../imagens/icon-aside.png") no-repeat scroll left 2px  #ffffff;
+	margin : 10px;
+ 	padding-left : 35px;	
+}
+
+#posts {
+	width : 750px;	
+}
+
+.data-cabecalho{
+	background : url("../imagens/date.png") no-repeat scroll left 2px  #ffffff;
+	color : #999;
+	margin : 10px;
+	padding-left : 20px; 
+}
+
+.post-corpo {
+	border-style : solid;
+	border-width : thin;
+	border-color : #9cdbec;
+	margin : 0 10px 30px 10px;
+}
+
+.titulo-cabecalho {
+	background-color : #9cdbec;	
+	color : #4D4D4D;
+}
+
+.conteudo-post img {
+	display : block;
+	margin : 0 auto 15px;	
+}
+
+.post-footer {
+	background : #0A83A4;
+	padding : 10px;
+	color : #ffffff;
+}
+
+.post-autor {
+	background : url("../imagens/autor.png") no-repeat scroll 0 0 transparent;
+	padding-top : 11px;
+	padding-left : 28px;
+}
+
+.post-comentario a:link{
+	color : #ffffff;
+}
+
+.post-comentario a:hover, a:active{
+ 	text-decoration : underline;
+}
+
+.post-tags{
+	background : url("../imagens/tags.png") no-repeat scroll 0 0 transparent;
+	display : table;
+	padding-left : 20px; 
+}
+
+.post-tags a:link{
+	color : #ffffff;
+}
+
+.post-tags a:hover, a:active{
+	text-decoration : underline;
+}
