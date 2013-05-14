@@ -1,6 +1,6 @@
 body {
 	font : 12px/1.7 Arial, verdana, sans-serif;
-background-image : -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#B5B5B5)); 
+	background-image : -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#B5B5B5)); 
 	background : -moz-linear-gradient(#ffffff, #B5B5B5); 
 	background : -ms-linear-gradient(#ffffff, #B5B5B5); 
 	background : -o-linear-gradient(#ffffff, #B5B5B5);
@@ -137,15 +137,6 @@ header {
   	-ms-filter : "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; /* ie 8 */
 }
 
-.barra-nav-busca {
-	width : 300px;
-	height : 23px;
-	background : url('../imagens/menu-busca.png') no-repeat;
-	float : right;
-	margin-top : -22px;
-	margin-right : 10px; 
-}
-
 #pesquisar {
 	float : right;
 	width : 220px;
@@ -190,26 +181,6 @@ header {
 
 #conteudo ul, #conteudo ol {
 	padding : 0 15px 15px 40px; 
-}
-
-ul.nav-busca li {
-	list-style : none;
-  	float : left;
-	margin-left : 5px;
-	font-size : 15px;
-}
-
-ul.nav-busca li + li a:before {
-  	content : "| ";
-}
-
-ul.nav-busca a {
-  	color : #ffffff;
-  	text-decoration : none;
-}
-
-ul.nav-busca, a,ul.nav-busca a:hover,ul.nav-busca a:active{
-	color : #c0fffd;
 }
 
 ul.nav-princ li {
